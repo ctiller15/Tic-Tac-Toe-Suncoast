@@ -22,4 +22,6 @@ How to work on this repo:
 
 10: Once your pull request is completed, you may delete your branch.
 
-It's best to think of each branch as a specific "issue" to be solved, instead of an individual history that you are working with.
+It's best to think of each branch as a specific 'feature', instead of an individual history that you are working with.
+
+* It appears that if you want to keep working with your branch, you need to delete and recreate it on github.
