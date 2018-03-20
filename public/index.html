@@ -11,12 +11,20 @@
       <h1>Tic Tac Toe</h1>
 
       <form>
-        <button type="button" class="vs-player">Vs Player</button>
-        <button type="button" class="vs-computer">Vs Computer</button>
+        <button type="button" class="vs-player" onclick="startPlayerGame()">Vs Player</button>
+        <button type="button" class="vs-computer" onclick="startComputerGame()">Vs Computer</button>
+      </form>
+    </section>
+
+    <section class="gamePieceMenu">
+      <h2>Player 1 choose your game piece:</h2>
+
+      <form>
+        <button type="button" class="X" onclick="choosePlayerPiece('X')">X</button>
+        <button type="button" class="O" onclick="choosePlayerPiece('O')">O</button>
       </form>
     </section>
 
     <script src="./main.js" charset="utf-8"></script>
   </body>
 </html>
-
