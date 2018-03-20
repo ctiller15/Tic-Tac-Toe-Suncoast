@@ -19,7 +19,7 @@ const choosePlayerPiece = (val) => {
 }
 
 const main = () => {
-  document.querySelector('h1').textContent += '?';
+  document.querySelector('h1').textContent += 'Rhubarb rhubarb walla walla';
 }
 
 document.addEventListener('DOMContentLoaded', main);
